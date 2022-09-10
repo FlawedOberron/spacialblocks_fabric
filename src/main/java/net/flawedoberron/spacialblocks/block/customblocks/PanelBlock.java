@@ -46,12 +46,17 @@ public class PanelBlock extends HorizontalConnectingBlock {
     public boolean canConnect(BlockState state, boolean neighborIsFullSquare, Direction dir) {
         Block block = state.getBlock();
         boolean bl = this.canConnectToFence(state);
-        boolean bl2 = block instanceof FenceGateBlock && FenceGateBlock.canWallConnect(state, dir);
-        return !cannotConnect(state) && neighborIsFullSquare || bl || bl2;
+        boolean bl2 = this.canConnectToWallOrPane(state);
+        boolean bl3 = block instanceof FenceGateBlock && FenceGateBlock.canWallConnect(state, dir);
+        return !cannotConnect(state) && neighborIsFullSquare || bl || bl2 || bl3;
     }
 
     private boolean canConnectToFence(BlockState state) {
         return state.isIn(BlockTags.FENCES) && state.isIn(BlockTags.WOODEN_FENCES) == this.getDefaultState().isIn(BlockTags.WOODEN_FENCES);
+    }
+
+    private  boolean canConnectToWallOrPane(BlockState state) {
+        return  state.isIn(BlockTags.WALLS) || state.getBlock() instanceof PaneBlock;
     }
 
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
