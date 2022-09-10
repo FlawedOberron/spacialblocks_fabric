@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_basic",
+  "textures": {
+    "panelouter": "minecraft:block/jungle_log",
+    "panelend": "minecraft:block/jungle_log_top"
+  }
+}

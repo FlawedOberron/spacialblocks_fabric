@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_completevisvert",
+  "textures": {
+    "paneltype": "minecraft:block/birch_log"
+  }
+}

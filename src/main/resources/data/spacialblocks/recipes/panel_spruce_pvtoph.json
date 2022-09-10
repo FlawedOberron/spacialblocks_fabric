@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panelling_conversion",
+  "key": {
+    "#": {
+      "item": "spacialblocks:panel_spruce_pv"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "spacialblocks:panel_spruce_ph"
+  }
+}

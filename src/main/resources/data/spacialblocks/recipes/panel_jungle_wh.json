@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panelling_basic",
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "pattern": [
+    " # ",
+    "###",
+    " # "
+  ],
+  "result": {
+    "count": 16,
+    "item": "spacialblocks:panel_jungle_wh"
+  }
+}

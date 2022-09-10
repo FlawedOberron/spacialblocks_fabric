@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/birch_planked/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/birch_planks"
+  }
+}

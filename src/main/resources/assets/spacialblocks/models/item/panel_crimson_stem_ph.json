@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/crimson_stem_planked/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/crimson_stem_planks"
+  }
+}

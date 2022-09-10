@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_centrepostvert",
+  "textures": {
+    "paneltype": "minecraft:block/warped_stem"
+  }
+}

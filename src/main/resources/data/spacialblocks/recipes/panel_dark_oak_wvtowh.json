@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panelling_conversion",
+  "key": {
+    "#": {
+      "item": "spacialblocks:panel_dark_oak_wv"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "spacialblocks:panel_dark_oak_wh"
+  }
+}

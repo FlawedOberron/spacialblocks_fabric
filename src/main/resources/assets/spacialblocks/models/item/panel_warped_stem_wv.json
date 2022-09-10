@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/warped_stem/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/warped_stem_log"
+  }
+}

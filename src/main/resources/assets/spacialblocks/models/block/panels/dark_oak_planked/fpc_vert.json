@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_centrepostvert",
+  "textures": {
+    "paneltype": "minecraft:block/dark_oak_planks"
+  }
+}

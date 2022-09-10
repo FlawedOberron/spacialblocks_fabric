@@ -1,0 +1,84 @@
+{
+	"gui_light": "side",
+	"display": {
+		"gui": {
+			"rotation": [ 30, 225, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 3, 0],
+			"scale":[ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 2.5, 0],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 0, 225, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	},
+	"credit": "Made with Blockbench",
+	"textures": {
+		"paneltype": "minecraft:block/spruce_planks",
+		"particle": "minecraft:block/spruce_planks"
+	},
+	"elements": [
+		{
+			"name": "PlankPillar",
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 16, 9], "rotation": 90, "texture": "#paneltype"},
+				"east": {"uv": [0, 7, 16, 9], "rotation": 270, "texture": "#paneltype"},
+				"south": {"uv": [0, 7, 16, 9], "rotation": 90, "texture": "#paneltype"},
+				"west": {"uv": [0, 7, 16, 9], "rotation": 270, "texture": "#paneltype"},
+				"up": {"uv": [7, 7, 9, 9], "texture": "#paneltype"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#paneltype"}
+			}
+		},
+		{
+			"name": "PlankEast",
+			"from": [9, 0, 7],
+			"to": [16, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 9, 16, 16], "rotation": 90, "texture": "#paneltype"},
+				"east": {"uv": [0, 7, 16, 9], "rotation": 90, "texture": "#paneltype"},
+				"south": {"uv": [0, 0, 16, 7], "rotation": 270, "texture": "#paneltype"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#paneltype"},
+				"up": {"uv": [9, 7, 16, 9], "texture": "#paneltype"},
+				"down": {"uv": [9, 7, 16, 9], "texture": "#paneltype"}
+			}
+		},
+		{
+			"name": "PlankWest",
+			"from": [0, 0, 7],
+			"to": [7, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 7], "rotation": 90, "texture": "#paneltype"},
+				"east": {"uv": [7, 0, 9, 16], "texture": "#paneltype"},
+				"south": {"uv": [0, 9, 16, 16], "rotation": 90, "texture": "#paneltype"},
+				"west": {"uv": [0, 7, 16, 9], "rotation": 90, "texture": "#paneltype"},
+				"up": {"uv": [0, 7, 7, 9], "texture": "#paneltype"},
+				"down": {"uv": [0, 7, 7, 9], "texture": "#paneltype"}
+			}
+		}
+	]
+}

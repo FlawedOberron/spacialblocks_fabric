@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/oak_planked/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/oak_planks"
+  }
+}

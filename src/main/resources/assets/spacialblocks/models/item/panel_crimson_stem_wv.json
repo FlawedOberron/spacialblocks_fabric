@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/crimson_stem/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/crimson_stem_log"
+  }
+}

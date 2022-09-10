@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"paneltype": "minecraft:block/spruce_planks",
+		"particle": "minecraft:block/spruce_planks"
+	},
+	"elements": [
+		{
+			"name": "PlankNorth",
+			"from": [7, 0, 0],
+			"to": [9, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 16, 9], "rotation": 270, "texture": "#paneltype"},
+				"east": {"uv": [0, 9, 16, 16], "rotation": 270, "texture": "#paneltype"},
+				"south": {"uv": [0, 7, 16, 9], "rotation": 90, "texture": "#paneltype"},
+				"west": {"uv": [0, 0, 16, 7], "rotation": 270, "texture": "#paneltype"},
+				"up": {"uv": [7, 0, 9, 7], "texture": "#paneltype"},
+				"down": {"uv": [7, 0, 9, 7], "texture": "#paneltype"}
+			}
+		}
+	]
+}

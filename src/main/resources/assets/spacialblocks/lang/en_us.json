@@ -1,0 +1,62 @@
+{
+  "block.spacialblocks.panel_oak_ph": "Oak Planks Panel",
+  "block.spacialblocks.panel_oak_pv": "Oak Planks Panel (Vertical)",
+  "block.spacialblocks.panel_oak_wh": "Oak Panel",
+  "block.spacialblocks.panel_oak_wv": "Oak Panel (Vertical)",
+  "block.spacialblocks.slope_oak": "Oak Slope",
+  "block.spacialblocks.slope_oak_p": "Oak Planked Slope",
+  
+  "block.spacialblocks.panel_spruce_ph": "Spruce Planks Panel",
+  "block.spacialblocks.panel_spruce_pv": "Spruce Planks Panel (Vertical)",
+  "block.spacialblocks.panel_spruce_wh": "Spruce Panel",
+  "block.spacialblocks.panel_spruce_wv": "Spruce Panel (Vertical)",
+  "block.spacialblocks.slope_spruce": "Spruce Slope",
+  "block.spacialblocks.slope_spruce_p": "Spruce Planked Slope",
+  
+  "block.spacialblocks.panel_birch_ph": "Birch Planks Panel",
+  "block.spacialblocks.panel_birch_pv": "Birch Planks Panel (Vertical)",
+  "block.spacialblocks.panel_birch_wh": "Birch Panel",
+  "block.spacialblocks.panel_birch_wv": "Birch Panel (Vertical)",
+  "block.spacialblocks.slope_birch": "Birch Slope",
+  "block.spacialblocks.slope_birch_p": "Birch Planked Slope",
+
+  "block.spacialblocks.panel_jungle_ph": "Jungle Planks Panel",
+  "block.spacialblocks.panel_jungle_pv": "Jungle Planks Panel (Vertical)",
+  "block.spacialblocks.panel_jungle_wh": "Jungle Panel",
+  "block.spacialblocks.panel_jungle_wv": "Jungle Panel (Vertical)",
+  "block.spacialblocks.slope_jungle": "Jungle Slope",
+  "block.spacialblocks.slope_jungle_p": "Jungle Planked Slope",
+
+  "block.spacialblocks.panel_dark_oak_ph": "Dark Oak Planks Panel",
+  "block.spacialblocks.panel_dark_oak_pv": "Dark Oak Planks Panel (Vertical)",
+  "block.spacialblocks.panel_dark_oak_wh": "Dark Oak Panel",
+  "block.spacialblocks.panel_dark_oak_wv": "Dark Oak Panel (Vertical)",
+  "block.spacialblocks.slope_dark_oak": "Dark Oak Slope",
+  "block.spacialblocks.slope_dark_oak_p": "Dark Oak Planked Slope",
+  
+  "block.spacialblocks.panel_acacia_ph": "Acacia Planks Panel",
+  "block.spacialblocks.panel_acacia_pv": "Acacia Planks Panel (Vertical)",
+  "block.spacialblocks.panel_acacia_wh": "Acacia Panel",
+  "block.spacialblocks.panel_acacia_wv": "Acacia Panel (Vertical)",
+  "block.spacialblocks.slope_acacia": "Acacia Slope",
+  "block.spacialblocks.slope_acacia_p": "Acacia Planked Slope",
+
+  "block.spacialblocks.panel_crimson_stem_ph": "Crimson Stem Planks Panel",
+  "block.spacialblocks.panel_crimson_stem_pv": "Crimson Stem Planks Panel (Vertical)",
+  "block.spacialblocks.panel_crimson_stem_wh": "Crimson Stem Panel",
+  "block.spacialblocks.panel_crimson_stem_wv": "Crimson Stem Panel (Vertical)",
+  "block.spacialblocks.slope_crimson_stem": "Crimson Slope",
+  "block.spacialblocks.slope_crimson_stem_p": "Crimson Planked Slope",
+
+  "block.spacialblocks.panel_warped_stem_ph": "Warped Stem Planks Panel",
+  "block.spacialblocks.panel_warped_stem_pv": "Warped Stem Planks Panel (Vertical)",
+  "block.spacialblocks.panel_warped_stem_wh": "Warped Stem Panel",
+  "block.spacialblocks.panel_warped_stem_wv": "Warped Stem Panel (Vertical)",
+  "block.spacialblocks.slope_warped_stem": "Warped Slope",
+  "block.spacialblocks.slope_warped_stem_p": "Warped Planked Slope",
+
+  "block.spacialblocks.panel_cobblestone_ph": "Cobblestone Panel",
+  "block.spacialblocks.panel_stone_ph": "Stone Panel",
+  "block.spacialblocks.panel_copper_ph": "Copper Panel",
+
+}

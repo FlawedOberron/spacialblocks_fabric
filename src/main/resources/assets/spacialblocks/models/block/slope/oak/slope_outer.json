@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_outer",
+  "textures": {
+    "panelouter": "minecraft:block/oak_log",
+    "panelend": "minecraft:block/oak_log_top"
+  }
+}

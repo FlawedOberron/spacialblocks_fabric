@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/oak/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/oak_log"
+  }
+}

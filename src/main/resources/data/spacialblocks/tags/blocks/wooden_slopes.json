@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "spacialblocks:slope_acacia",
+    "spacialblocks:slope_acacia_p",
+    "spacialblocks:slope_birch",
+    "spacialblocks:slope_birch_p",
+    "spacialblocks:slope_crimson_stem",
+    "spacialblocks:slope_crimson_stem_p",
+    "spacialblocks:slope_dark_oak",
+    "spacialblocks:slope_dark_oak_p",
+    "spacialblocks:slope_jungle",
+    "spacialblocks:slope_jungle_p",
+    "spacialblocks:slope_oak",
+    "spacialblocks:slope_oak_p",
+    "spacialblocks:slope_spruce",
+    "spacialblocks:slope_spruce_p",
+    "spacialblocks:slope_warped_stem",
+    "spacialblocks:slope_warped_stem_p"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+	"gui_light": "side",
+	"display": {
+		"gui": {
+			"rotation": [ 30, 225, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 3, 0],
+			"scale":[ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 2.5, 0],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 0, 225, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	},
+	"credit": "Made with Blockbench",
+	"textures": {
+		"panelouter": "minecraft:block/spruce_log",
+		"panelend": "minecraft:block/spruce_log_top",
+		"particle": "minecraft:block/spruce_planks"
+	},
+	"elements": [
+		{
+			"name": "SlopeFull_BackPlane",
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#panelouter"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#panelouter"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#panelouter"}
+			}
+		},
+		{
+			"name": "SlopeFull_TopPlane",
+			"from": [0, 16, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, 16, 0], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#panelouter"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#panelouter"}
+			}
+		},
+		{
+			"name": "SlopeFull_BottomPlane",
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#panelouter"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#panelouter"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#panelouter"}
+			}
+		},
+		{
+			"name": "OuterLine",
+			"from": [0, -2, 14],
+			"to": [0, 14, 16],
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, -2, 14], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#panelouter"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"west": {"uv": [2, 0, 0, 16], "texture": "#panelouter"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#panelouter"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#panelouter"}
+			}
+		},
+		{
+			"name": "InnerBulk",
+			"from": [1, 0, 0],
+			"to": [1, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 8], "texture": "#panelend"}
+			}
+		},
+		{
+			"name": "BottomFiller",
+			"from": [1, 0, 8],
+			"to": [1, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"east": {"uv": [8, 12, 12, 16], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"west": {"uv": [8, 12, 12, 16], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#panelend"}
+			}
+		},
+		{
+			"name": "TopFiller",
+			"from": [1, 8, 0],
+			"to": [1, 12, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 8, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#panelend"}
+			}
+		},
+		{
+			"name": "OuterLine",
+			"from": [16, -2, 14],
+			"to": [16, 14, 16],
+			"rotation": {"angle": -45, "axis": "x", "origin": [16, -2, 14], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"east": {"uv": [14, 0, 16, 16], "texture": "#panelouter"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#panelouter"},
+				"west": {"uv": [16, 0, 14, 16], "texture": "#panelouter"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#panelouter"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#panelouter"}
+			}
+		},
+		{
+			"name": "InnerBulk",
+			"from": [15, 0, 0],
+			"to": [15, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 8], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 8], "texture": "#panelend"}
+			}
+		},
+		{
+			"name": "BottomFiller",
+			"from": [15, 0, 8],
+			"to": [15, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"east": {"uv": [4, 12, 8, 16], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"west": {"uv": [4, 12, 8, 16], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#panelend"}
+			}
+		},
+		{
+			"name": "TopFiller",
+			"from": [15, 8, 0],
+			"to": [15, 12, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"east": {"uv": [12, 4, 16, 8], "texture": "#panelend"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"west": {"uv": [12, 4, 16, 8], "texture": "#panelend"},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#panelend"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#panelend"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "SlopeFull",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				{
+					"name": "SlopeFull_WestTriangle",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [3, 4, 5, 6]
+				},
+				{
+					"name": "SlopeFull_EastTriangle",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [7, 8, 9, 10]
+				}
+			]
+		}
+	]
+}

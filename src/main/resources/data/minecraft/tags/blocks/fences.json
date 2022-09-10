@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "spacialblocks:panel_oak_ph",
+    "spacialblocks:panel_oak_pv",
+    "spacialblocks:panel_oak_wh",
+    "spacialblocks:panel_oak_wv",
+
+    "spacialblocks:panel_spruce_ph",
+    "spacialblocks:panel_spruce_pv",
+    "spacialblocks:panel_spruce_wh",
+    "spacialblocks:panel_spruce_wv",
+
+    "spacialblocks:panel_birch_ph",
+    "spacialblocks:panel_birch_pv",
+    "spacialblocks:panel_birch_wh",
+    "spacialblocks:panel_birch_wv",
+
+    "spacialblocks:panel_jungle_ph",
+    "spacialblocks:panel_jungle_pv",
+    "spacialblocks:panel_jungle_wh",
+    "spacialblocks:panel_jungle_wv",
+
+    "spacialblocks:panel_dark_oak_ph",
+    "spacialblocks:panel_dark_oak_pv",
+    "spacialblocks:panel_dark_oak_wh",
+    "spacialblocks:panel_dark_oak_wv",
+
+    "spacialblocks:panel_acacia_ph",
+    "spacialblocks:panel_acacia_pv",
+    "spacialblocks:panel_acacia_wh",
+    "spacialblocks:panel_acacia_wv",
+
+    "spacialblocks:panel_crimson_stem_ph",
+    "spacialblocks:panel_crimson_stem_pv",
+    "spacialblocks:panel_crimson_stem_wh",
+    "spacialblocks:panel_crimson_stem_wv",
+
+    "spacialblocks:panel_warped_stem_ph",
+    "spacialblocks:panel_warped_stem_pv",
+    "spacialblocks:panel_warped_stem_wh",
+    "spacialblocks:panel_warped_stem_wv"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/acacia_planked/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/acacia_planks"
+  }
+}

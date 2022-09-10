@@ -1,0 +1,21 @@
+{
+  "multipart": [
+    { "apply": { "model": "spacialblocks:block/panels/birch/fpc" } },
+    {
+      "when": { "north": "true" },
+      "apply": { "model": "spacialblocks:block/panels/birch/fpn", "y": 0, "uvlock": true }
+    },
+    {
+      "when": { "east": "true" },
+      "apply": { "model": "spacialblocks:block/panels/birch/fpn", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "south": "true" },
+      "apply": { "model": "spacialblocks:block/panels/birch/fpn", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "west": "true" },
+      "apply": { "model": "spacialblocks:block/panels/birch/fpn", "y": 270, "uvlock": true }
+    }
+  ]
+}

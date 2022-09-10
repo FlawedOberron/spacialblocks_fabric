@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/acacia/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/acacia_log"
+  }
+}

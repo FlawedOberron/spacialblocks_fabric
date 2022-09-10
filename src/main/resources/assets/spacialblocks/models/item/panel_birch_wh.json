@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/birch/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/birch_log"
+  }
+}

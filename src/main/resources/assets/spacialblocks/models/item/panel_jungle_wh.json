@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/jungle/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/jungle_log"
+  }
+}

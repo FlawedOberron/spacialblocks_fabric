@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_northsectionvert",
+  "textures": {
+    "paneltype": "minecraft:block/oak_planks"
+  }
+}

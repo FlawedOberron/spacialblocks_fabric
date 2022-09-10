@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_basic",
+  "textures": {
+    "panelouter": "minecraft:block/spruce_planks",
+    "panelend": "minecraft:block/spruce_planks"
+  }
+}
