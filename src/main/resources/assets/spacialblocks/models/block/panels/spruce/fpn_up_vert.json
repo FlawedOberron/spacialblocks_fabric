@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulluppanel_northsectionvert",
+  "textures": {
+    "paneltype": "minecraft:block/spruce_log"
+  }
+}

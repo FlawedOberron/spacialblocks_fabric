@@ -1,21 +1,63 @@
 {
   "multipart": [
-    { "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpc_vert" } },
+    { "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpc" } },
     {
       "when": { "north": "true" },
-      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_vert", "y": 0, "uvlock": true }
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn", "y": 0, "uvlock": true }
     },
     {
       "when": { "east": "true" },
-      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_vert", "y": 90, "uvlock": true }
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn", "y": 90, "uvlock": true }
     },
     {
       "when": { "south": "true" },
-      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_vert", "y": 180, "uvlock": true }
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn", "y": 180, "uvlock": true }
     },
     {
       "when": { "west": "true" },
-      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_vert", "y": 270, "uvlock": true }
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn", "y": 270, "uvlock": true }
+    },
+
+    {
+      "when": { "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpc_up" }
+    },
+    {
+      "when": { "north": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_up", "y": 0, "uvlock": true }
+    },
+    {
+      "when": { "east": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_up", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "south": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_up", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "west": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_up", "y": 270, "uvlock": true }
+    },
+
+    {
+      "when": { "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpc_down" }
+    },
+    {
+      "when": { "north": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_down", "y": 0, "uvlock": true }
+    },
+    {
+      "when": { "east": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_down", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "south": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_down", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "west": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/dark_oak_planked/fpn_down", "y": 270, "uvlock": true }
     }
   ]
 }

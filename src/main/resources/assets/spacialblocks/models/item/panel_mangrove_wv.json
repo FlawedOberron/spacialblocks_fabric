@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/mangrove/fpvis_vert",
+  "textures": {
+    "#paneltype": "minecraft:block/mangrove_log"
+  }
+}

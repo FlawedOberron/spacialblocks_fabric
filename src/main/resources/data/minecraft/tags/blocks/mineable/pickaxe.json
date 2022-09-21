@@ -1,5 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#spacialblocks:stone_panels",
+    "#spacialblocks:stone_slopes"
   ]
 }

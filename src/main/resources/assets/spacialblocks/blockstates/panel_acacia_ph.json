@@ -16,6 +16,48 @@
     {
       "when": { "west": "true" },
       "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn", "y": 270, "uvlock": true }
+    },
+
+    {
+      "when": { "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpc_up" }
+    },
+    {
+      "when": { "north": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_up", "y": 0, "uvlock": true }
+    },
+    {
+      "when": { "east": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_up", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "south": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_up", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "west": "true", "up": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_up", "y": 270, "uvlock": true }
+    },
+
+    {
+      "when": { "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpc_down" }
+    },
+    {
+      "when": { "north": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_down", "y": 0, "uvlock": true }
+    },
+    {
+      "when": { "east": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_down", "y": 90, "uvlock": true }
+    },
+    {
+      "when": { "south": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_down", "y": 180, "uvlock": true }
+    },
+    {
+      "when": { "west": "true", "down": "true" },
+      "apply": { "model": "spacialblocks:block/panels/acacia_planked/fpn_down", "y": 270, "uvlock": true }
     }
   ]
 }

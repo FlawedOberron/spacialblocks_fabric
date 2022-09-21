@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_inner",
+  "textures": {
+    "panelouter": "minecraft:block/mangrove_log",
+    "panelend": "minecraft:block/mangrove_log_top"
+  }
+}

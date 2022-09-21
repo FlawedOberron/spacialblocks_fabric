@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_centrepost",
+  "textures": {
+    "paneltype": "minecraft:block/prismarine"
+  }
+}

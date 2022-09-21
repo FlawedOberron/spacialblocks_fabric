@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulldownpanel_centrepost",
+  "textures": {
+    "paneltype": "minecraft:block/dark_oak_log"
+  }
+}

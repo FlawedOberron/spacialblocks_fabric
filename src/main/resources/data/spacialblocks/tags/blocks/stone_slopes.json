@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "spacialblocks:slope_stone",
+    "spacialblocks:slope_stone_bricks",
+    "spacialblocks:slope_cobblestone",
+    "spacialblocks:slope_andesite",
+    "spacialblocks:slope_polished_andesite",
+    "spacialblocks:slope_granite",
+    "spacialblocks:slope_polished_granite",
+    "spacialblocks:slope_diorite",
+    "spacialblocks:slope_polished_diorite",
+    "spacialblocks:slope_sandstone",
+    "spacialblocks:slope_smooth_sandstone",
+    "spacialblocks:slope_prismarine",
+    "spacialblocks:slope_prismarine_bricks",
+    "spacialblocks:slope_dark_prismarine"
+  ]
+}

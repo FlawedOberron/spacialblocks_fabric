@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fullpanel_completevis",
+  "textures": {
+    "paneltype": "minecraft:block/prismarine"
+  }
+}

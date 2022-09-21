@@ -38,6 +38,7 @@ public class SpacialBlocks implements ModInitializer
                 "crimson_stem",
                 "dark_oak",
                 "jungle",
+                "mangrove",
                 "oak",
                 "spruce",
                 "warped_stem"
@@ -51,6 +52,35 @@ public class SpacialBlocks implements ModInitializer
                     FabricBlockSettings.of(Material.WOOD).strength(2f).sounds(BlockSoundGroup.WOOD).breakByHand(true),
                     true,
                     FabricBlockSettings.of(Material.WOOD).strength(1.5f).sounds(BlockSoundGroup.WOOD).breakByHand(true));
+        }
+
+        // Generate any additional types for stone blocks
+        String[] stoneTypes = new String[]
+        {
+                "stone",
+                "stone_bricks",
+                "cobblestone",
+                "andesite",
+                "polished_andesite",
+                "granite",
+                "polished_granite",
+                "diorite",
+                "polished_diorite",
+                "sandstone",
+                "smooth_sandstone",
+                "prismarine",
+                "prismarine_bricks",
+                "dark_prismarine"
+        };
+
+        for (String nextStone : stoneTypes)
+        {
+            GenerateConstructiveBlocks(nextStone,
+                    false,
+                    true,
+                    FabricBlockSettings.of(Material.STONE).strength(1.5f).sounds(BlockSoundGroup.STONE).breakByHand(false).requiresTool(),
+                    false,
+                    FabricBlockSettings.of(Material.STONE).strength(1.5f).sounds(BlockSoundGroup.STONE).breakByHand(false).requiresTool());
         }
 
         // Register blocks and register any items as well...
@@ -70,7 +100,7 @@ public class SpacialBlocks implements ModInitializer
         var basePanel = new PanelBlock(baseBlockSettings);
 
         // Adds panels...
-        allBlocks.add(new BlockRegister("panel_" + type.toLowerCase() + "_wh", new PanelBlock(baseBlockSettings), ItemGroup.BUILDING_BLOCKS, regTags));
+        allBlocks.add(new BlockRegister("panel_" + type.toLowerCase() + ((incVert || incPlanked) ? "_wh" : ""), new PanelBlock(baseBlockSettings), ItemGroup.BUILDING_BLOCKS, regTags));
 
         if (incVert)
         {

@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulluppanel_centrepost",
+  "textures": {
+    "paneltype": "minecraft:block/jungle_planks"
+  }
+}

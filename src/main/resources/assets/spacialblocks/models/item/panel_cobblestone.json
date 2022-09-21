@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/cobblestone/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/cobblestone"
+  }
+}

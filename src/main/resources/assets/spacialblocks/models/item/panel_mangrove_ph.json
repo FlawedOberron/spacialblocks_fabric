@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/mangrove_planked/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/mangrove_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/granite/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/granite"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/andesite/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/andesite"
+  }
+}

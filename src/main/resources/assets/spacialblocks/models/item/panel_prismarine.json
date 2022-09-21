@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/prismarine/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/prismarine"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulldownpanel_centrepostvert",
+  "textures": {
+    "paneltype": "minecraft:block/crimson_planks"
+  }
+}

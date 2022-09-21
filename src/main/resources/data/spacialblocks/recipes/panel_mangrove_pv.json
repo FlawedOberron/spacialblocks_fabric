@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "panelling_conversion",
+  "key": {
+    "#": {
+      "item": "spacialblocks:panel_mangrove_ph"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "spacialblocks:panel_mangrove_pv"
+  }
+}

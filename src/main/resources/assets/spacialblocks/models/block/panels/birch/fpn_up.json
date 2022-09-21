@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulluppanel_northsection",
+  "textures": {
+    "paneltype": "minecraft:block/birch_log"
+  }
+}

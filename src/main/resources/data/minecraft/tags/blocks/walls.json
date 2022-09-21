@@ -31,6 +31,11 @@
     "spacialblocks:panel_acacia_wh",
     "spacialblocks:panel_acacia_wv",
 
+    "spacialblocks:panel_mangrove_ph",
+    "spacialblocks:panel_mangrove_pv",
+    "spacialblocks:panel_mangrove_wh",
+    "spacialblocks:panel_mangrove_wv",
+
     "spacialblocks:panel_crimson_stem_ph",
     "spacialblocks:panel_crimson_stem_pv",
     "spacialblocks:panel_crimson_stem_wh",
@@ -39,6 +44,21 @@
     "spacialblocks:panel_warped_stem_ph",
     "spacialblocks:panel_warped_stem_pv",
     "spacialblocks:panel_warped_stem_wh",
-    "spacialblocks:panel_warped_stem_wv"
+    "spacialblocks:panel_warped_stem_wv",
+
+    "spacialblocks:panel_stone",
+    "spacialblocks:panel_stone_bricks",
+    "spacialblocks:panel_cobblestone",
+    "spacialblocks:panel_andesite",
+    "spacialblocks:panel_polished_andesite",
+    "spacialblocks:panel_granite",
+    "spacialblocks:panel_polished_granite",
+    "spacialblocks:panel_diorite",
+    "spacialblocks:panel_polished_diorite",
+    "spacialblocks:panel_sandstone",
+    "spacialblocks:panel_smooth_sandstone",
+    "spacialblocks:panel_prismarine",
+    "spacialblocks:panel_prismarine_bricks",
+    "spacialblocks:panel_dark_prismarine"
   ]
 }

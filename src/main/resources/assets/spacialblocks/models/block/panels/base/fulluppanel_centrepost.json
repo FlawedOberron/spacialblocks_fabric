@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"paneltype": "minecraft:block/spruce_planks",
+		"particle": "minecraft:block/spruce_planks"
+	},
+	"elements": [
+		{
+			"name": "PlankPillar_UP",
+			"from": [7, 16, 7],
+			"to": [9, 31, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [7, 1, 9, 16], "texture": "#paneltype"},
+				"east": {"uv": [7, 1, 9, 16], "texture": "#paneltype"},
+				"south": {"uv": [7, 1, 9, 16], "texture": "#paneltype"},
+				"west": {"uv": [7, 1, 9, 16], "texture": "#paneltype"},
+				"up": {"uv": [7, 7, 9, 9], "texture": "#paneltype"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#paneltype"}
+			}
+		}
+	]
+}

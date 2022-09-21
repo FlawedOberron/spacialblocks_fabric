@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/base/fulldownpanel_northsection",
+  "textures": {
+    "paneltype": "minecraft:block/polished_granite"
+  }
+}

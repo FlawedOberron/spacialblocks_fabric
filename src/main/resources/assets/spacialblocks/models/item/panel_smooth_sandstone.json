@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/smooth_sandstone/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/sandstone_top"
+  }
+}

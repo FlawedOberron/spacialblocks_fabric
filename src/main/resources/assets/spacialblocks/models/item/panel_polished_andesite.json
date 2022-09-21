@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/polished_andesite/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/polished_andesite"
+  }
+}

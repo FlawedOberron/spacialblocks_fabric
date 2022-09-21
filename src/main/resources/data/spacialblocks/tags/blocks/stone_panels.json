@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "spacialblocks:panel_stone",
+    "spacialblocks:panel_stone_bricks",
+    "spacialblocks:panel_cobblestone",
+    "spacialblocks:panel_andesite",
+    "spacialblocks:panel_polished_andesite",
+    "spacialblocks:panel_granite",
+    "spacialblocks:panel_polished_granite",
+    "spacialblocks:panel_diorite",
+    "spacialblocks:panel_polished_diorite",
+    "spacialblocks:panel_sandstone",
+    "spacialblocks:panel_smooth_sandstone",
+    "spacialblocks:panel_prismarine",
+    "spacialblocks:panel_prismarine_bricks",
+    "spacialblocks:panel_dark_prismarine"
+  ]
+}

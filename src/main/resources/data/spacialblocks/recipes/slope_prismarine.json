@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "slope_creation",
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "result": {
+    "count": 6,
+    "item": "spacialblocks:slope_prismarine"
+  }
+}

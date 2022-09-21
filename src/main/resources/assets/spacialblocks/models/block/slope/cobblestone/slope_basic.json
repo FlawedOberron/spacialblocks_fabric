@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_basic",
+  "textures": {
+    "panelouter": "minecraft:block/cobblestone",
+    "panelend": "minecraft:block/cobblestone"
+  }
+}

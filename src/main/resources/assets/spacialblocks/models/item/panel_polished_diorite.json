@@ -1,0 +1,6 @@
+{
+  "parent": "spacialblocks:block/panels/polished_diorite/fpvis",
+  "textures": {
+    "#paneltype": "minecraft:block/polished_diorite"
+  }
+}

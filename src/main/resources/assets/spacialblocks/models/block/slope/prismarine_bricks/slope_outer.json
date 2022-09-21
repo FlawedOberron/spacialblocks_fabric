@@ -1,0 +1,7 @@
+{
+  "parent": "spacialblocks:block/slope/base/slope_outer",
+  "textures": {
+    "panelouter": "minecraft:block/prismarine_bricks",
+    "panelend": "minecraft:block/prismarine_bricks"
+  }
+}
